@@ -7,7 +7,7 @@ import picture from "./../../../assets/picture.jpg";
 export function Picture() {
   return (
     <View style={styles.container}>
-      <Image source={picture} />
+      <Image style={styles.picture} source={picture} />
     </View>
   );
 }

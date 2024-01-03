@@ -1,12 +1,13 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { View } from "react-native";
 
 import { styles } from "./styles";
+import { Header } from "../../Components";
 
 export function SkillScreen() {
   return (
     <View style={styles.container}>
-      <Text>Skill</Text>
+      <Header />
     </View>
   );
 }
